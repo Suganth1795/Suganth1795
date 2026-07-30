@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Suganth
+# Hi, I'm CLS
 
 Full stack developer focused on practical web apps, AI-powered tools, and software that feels polished, useful, and easy to maintain.
 
@@ -13,10 +13,10 @@ Full stack developer focused on practical web apps, AI-powered tools, and softwa
 
 <p>
   <a href="https://github.com/Suganth1795">
-    <img src="https://img.shields.io/badge/GitHub-Suganth1795-181717?style=for-the-badge&logo=github" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-CLS-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
   <a href="https://linkedin.com/in/suganth1795/">
-    <img src="https://img.shields.io/badge/LinkedIn-Suganth-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-CLS-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="https://suganthportfolio.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-Live-0d1117?style=for-the-badge&logo=vercel" alt="Portfolio" />
@@ -37,12 +37,12 @@ Full stack developer focused on practical web apps, AI-powered tools, and softwa
 <td width="34%" valign="top">
 
 <p align="center">
-<img src="./source-photo.png" width="280" alt="Suganth portrait" />
+<img src="./source-photo.png" width="280" alt="CLS portrait" />
 </p>
 
 <p align="center">
-<strong>Suganth</strong><br>
-Suganth1795<br>
+<strong>CLS</strong><br>
+CLS<br>
 Full Stack Developer<br>
 India
 </p>
@@ -81,10 +81,10 @@ nothing to commit, working tree clean
 <table>
 <tr>
 <td align="center" width="40%">
-<img src="./suganth-ascii.svg" width="360" alt="Suganth ASCII Portrait" />
+<img src="./suganth-ascii.svg" width="360" alt="CLS ASCII Portrait" />
 </td>
 <td align="center" width="60%">
-<img src="./wordmark.svg" width="500" alt="Suganth Wordmark" />
+<img src="./wordmark.svg" width="500" alt="CLS Wordmark" />
 </td>
 </tr>
 </table>
@@ -116,19 +116,13 @@ nothing to commit, working tree clean
 
 ## Featured Projects
 
-| Project | Description |
-| --- | --- |
-| AI Resume Builder | AI-powered resume builder that helps create tailored resumes faster |
-| MindGuardian AI | AI-powered mental wellness platform |
-| IndustrialMart | Industrial machinery marketplace |
-| Personal Portfolio | Responsive portfolio built with React and Next.js |
-| AI Utilities | Experiments and automation around generative AI |
-
-## Contribution Heatmap
-
-<p align="center">
-<img src="./contrib-heatmap.svg" width="900" alt="Contribution Heatmap" />
-</p>
+| Project            | Description                                                         |
+| ------------------ | ------------------------------------------------------------------- |
+| AI Resume Builder  | AI-powered resume builder that helps create tailored resumes faster |
+| MindGuardian AI    | AI-powered mental wellness platform                                 |
+| IndustrialMart     | Industrial machinery marketplace                                    |
+| Personal Portfolio | Responsive portfolio built with React and Next.js                   |
+| AI Utilities       | Experiments and automation around generative AI                     |
 
 ## GitHub Streak
 
@@ -139,7 +133,7 @@ nothing to commit, working tree clean
 ## Connect With Me
 
 - GitHub: [Suganth1795](https://github.com/Suganth1795)
-- LinkedIn: [Suganth](https://linkedin.com/in/suganth1795/)
+- LinkedIn: [CLS](https://linkedin.com/in/suganth1795/)
 - Portfolio: [Live site](https://suganthportfolio.vercel.app)
 
 <div align="center">
