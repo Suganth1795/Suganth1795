@@ -1,43 +1,81 @@
 <div align="center">
 
-<!-- hero: monochrome ASCII portrait (types in) beside the extruded 3d ascii
-     wordmark (wipes in left-to-right, then rocks on its vertical axis).
-     widths are picked so both panels land at the same height.
-     portrait: python scripts/prep_photo.py <photo> && python scripts/make_ascii_svg.py
-     wordmark: python scripts/make_wordmark_svg.py --mode rock
-     how the wordmark is built: docs/3d-ascii-wordmark.md -->
+# Hi, I'm Suganth
 
-<h3><code>avi@github ~ $ whoami</code></h3>
+I'm a full-stack developer who enjoys building practical web apps, AI-powered experiences, and clean software solutions. I love turning ideas into products and continuously learning new technologies along the way.
 
-<table>
-<tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="Avi Vashishta — ASCII portrait" /></td>
-<td valign="top"><img src="./wordmark.svg" width="490" alt="AVI — 3D ASCII wordmark" /></td>
-</tr>
-</table>
+</div>
 
-<br>
-<br>
+## About Me
 
-<!-- animated contribution graph: real data, boxes reveal cell by cell
-     (regenerated daily by .github/workflows/update-profile-art.yml) -->
+- Full Stack Developer
+- B.Tech in Computer Science & Business Systems
+- Interested in AI, web development, and software engineering
+- Based in India
 
-<h3><code>avi@github ~ $ ./contributions.sh</code></h3>
+## Skills
 
-<img src="./contrib-heatmap.svg" width="860" alt="Avi's GitHub contribution graph — auto-refreshed daily" />
+### Languages
 
-<br>
-<br>
+- Java
+- Python
+- JavaScript
+- TypeScript
+- SQL
+- C++
 
-<h3><code>avi@github ~ $ ./links.sh</code></h3>
+### Frontend
 
-<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
+- HTML5
+- CSS3
+- React.js
+- Next.js
+- Tailwind CSS
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-avivashishta.com-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.avivashishta.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-avivashishta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/avivashishta)
-[![Instagram](https://img.shields.io/badge/Instagram-avi__vashishta29-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/avi_vashishta29)
-[![Live Terminal](https://img.shields.io/badge/⚡_Live_Terminal-avivashishta29.github.io-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://avivashishta29.github.io)
+### Backend
 
-<br>
+- Node.js
+- Express.js
+- MongoDB
+- REST APIs
+
+## Currently Building
+
+- AI-driven applications
+- Full-stack web experiences
+- Modern portfolio and product projects
+- Strong foundations in data structures and algorithms
+
+## Featured Projects
+
+- MindGuardian AI — AI-powered mental wellness platform
+- IndustrialMart — industrial machinery marketplace
+- Personal Portfolio — responsive portfolio built with React and Next.js
+- AI Utilities — experiments and automation around generative AI
+
+## GitHub Stats
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Suganth1795&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suganth1795&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+## Connect With Me
+
+<p align="center">
+  <a href="https://github.com/Suganth1795">
+    <img src="https://img.shields.io/badge/GitHub-Suganth1795-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/suganth1795/">
+    <img src="https://img.shields.io/badge/LinkedIn-Suganth-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://suganthportfolio.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Live-0d1117?style=for-the-badge&logo=vercel" alt="Portfolio" />
+  </a>
+</p>
+
+<div align="center">
+
+Thanks for visiting my profile. Feel free to explore my repositories and connect with me.
 
 </div>
