@@ -49,7 +49,7 @@ FONT_PATH = os.environ.get("WORDMARK_FONT") or "C:/Windows/Fonts/verdanab.ttf"
 FONT_INDEX = int(os.environ.get("WORDMARK_FONT_INDEX", 0))   # face within a .ttc
 # three letters across the full width leaves ~30 grid columns each, which is what
 # lets the cells be big enough to read as characters rather than as dither.
-TEXT = os.environ.get("WORDMARK_TEXT", "SUGANTH")
+TEXT = os.environ.get("WORDMARK_TEXT", "S U G A N T H")
 
 MASK_H = 300           # glyph raster height in mask px (drives voxel density)
 TRACKING = 0.09        # extra letter-spacing, in em. counter gaps must survive the
