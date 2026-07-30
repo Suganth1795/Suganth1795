@@ -45,18 +45,18 @@ CELL_H = 15.5
 # and the pointed apex on the A gives the extrusion an edge to wrap around. a
 # very heavy face (Impact) collapses to blobs at this resolution -- the counters
 # get thinner than one grid cell.
-FONT_PATH = os.environ.get("WORDMARK_FONT") or "C:/Windows/Fonts/arialbd.ttf"
+FONT_PATH = os.environ.get("WORDMARK_FONT") or "C:/Windows/Fonts/verdanab.ttf"
 FONT_INDEX = int(os.environ.get("WORDMARK_FONT_INDEX", 0))   # face within a .ttc
 # three letters across the full width leaves ~30 grid columns each, which is what
 # lets the cells be big enough to read as characters rather than as dither.
 TEXT = os.environ.get("WORDMARK_TEXT", "SUGANTH")
 
 MASK_H = 300           # glyph raster height in mask px (drives voxel density)
-TRACKING = 0.14        # extra letter-spacing, in em. counter gaps must survive the
+TRACKING = 0.09        # extra letter-spacing, in em. counter gaps must survive the
                        # extrusion offset or the word rasterizes to one solid slab.
 LINE_GAP = 1.20        # baseline-to-baseline, in cap heights (multi-line TEXT only)
-DEPTH_FRAC = 0.34      # extrusion depth as a fraction of glyph height
-TILT_DEG = float(os.environ.get("WORDMARK_TILT", 4.0))
+DEPTH_FRAC = 0.22      # extrusion depth as a fraction of glyph height
+TILT_DEG = float(os.environ.get("WORDMARK_TILT", 2.0))
                        # fixed X tilt so the top face stays visible. tilt slants the
                        # whole baseline in screen space, so the bottom row frays into
                        # a sliver at the ends of the swing -- keep it shallow. the
@@ -64,9 +64,9 @@ TILT_DEG = float(os.environ.get("WORDMARK_TILT", 4.0))
 # a near camera foreshortens the far letter ~20% at the ends of the swing, which
 # reads as a rendering fault rather than as depth. pulled back + longer lens keeps
 # the three letters the same size and lets the extrusion carry the 3D on its own.
-CAM_DIST = 6.0         # camera distance in world units (1.0 == wordmark width)
-FOCAL = 4.15
-FIT = 0.92             # fraction of the grid the widest pose may use
+CAM_DIST = 6.8         # camera distance in world units (1.0 == wordmark width)
+FOCAL = 4.6
+FIT = 0.98             # fraction of the grid the widest pose may use
 
 # sparse/dim -> dense/bright. index 0 is blank.
 RAMP = " .`:-=+*csS#%@"
@@ -255,8 +255,8 @@ def emit(frames, mode, out, dur, reveal):
     ]
     for i, dot in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         p.append(f'<circle cx="{PAD + i*15}" cy="{TITLEBAR_H/2}" r="4.5" fill="{dot}"/>')
-    p.append(f'<text x="{canvas_w/2:.0f}" y="{TITLEBAR_H/2 + 4:.0f}" fill="{TITLE_TEXT}" '
-             f'font-size="11.5" text-anchor="middle">suganth1795@github: ~$ ./wordmark.sh --3d</text>')
+    p.append(f'<text x="{canvas_w/2:.0f}" y="{TITLEBAR_H/2 + 5:.0f}" fill="{INK}" '
+             f'font-size="13.5" font-weight="700" text-anchor="middle">SUGANTH</text>')
 
     def frame_g(rows, extra=""):
         out_rows = []
@@ -333,7 +333,7 @@ def main():
     a = ap.parse_args()
 
     P, N = build_shell()
-    rest = math.radians(-13)                  # the 3/4 pose the wordmark rests in
+    rest = math.radians(-6)                   # the 3/4 pose the wordmark rests in
     if a.mode == "spin":
         nf = a.frames or 36
         yaws = [rest + 2 * math.pi * i / nf for i in range(nf)]
@@ -344,7 +344,7 @@ def main():
         dur = a.dur or 3.6
     else:                                     # rock: ping-pong, cosine-eased
         nf = a.frames or 20
-        amp = math.radians(11)
+        amp = math.radians(5)
         yaws = [rest + amp * math.sin(2 * math.pi * i / nf) for i in range(nf)]
         dur = a.dur or 5.0
 
