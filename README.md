@@ -25,6 +25,13 @@ Full stack developer focused on practical web apps, AI-powered tools, and softwa
 
 </div>
 
+## GitHub Stats
+
+<p align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Suganth1795&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suganth1795&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
 <table>
 <tr>
 <td width="34%" valign="top">
@@ -116,13 +123,6 @@ nothing to commit, working tree clean
 | IndustrialMart | Industrial machinery marketplace |
 | Personal Portfolio | Responsive portfolio built with React and Next.js |
 | AI Utilities | Experiments and automation around generative AI |
-
-## GitHub Stats
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Suganth1795&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suganth1795&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
 
 ## Contribution Heatmap
 

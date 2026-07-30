@@ -49,7 +49,7 @@ FONT_PATH = os.environ.get("WORDMARK_FONT") or "C:/Windows/Fonts/verdanab.ttf"
 FONT_INDEX = int(os.environ.get("WORDMARK_FONT_INDEX", 0))   # face within a .ttc
 # three letters across the full width leaves ~30 grid columns each, which is what
 # lets the cells be big enough to read as characters rather than as dither.
-TEXT = os.environ.get("WORDMARK_TEXT", "S U G A N T H")
+TEXT = os.environ.get("WORDMARK_TEXT", "CLS")
 
 MASK_H = 300           # glyph raster height in mask px (drives voxel density)
 TRACKING = 0.09        # extra letter-spacing, in em. counter gaps must survive the
@@ -256,7 +256,7 @@ def emit(frames, mode, out, dur, reveal):
     for i, dot in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         p.append(f'<circle cx="{PAD + i*15}" cy="{TITLEBAR_H/2}" r="4.5" fill="{dot}"/>')
     p.append(f'<text x="{canvas_w/2:.0f}" y="{TITLEBAR_H/2 + 5:.0f}" fill="{INK}" '
-             f'font-size="13.5" font-weight="700" text-anchor="middle">SUGANTH</text>')
+             f'font-size="13.5" font-weight="700" text-anchor="middle">CLS</text>')
 
     def frame_g(rows, extra=""):
         out_rows = []
