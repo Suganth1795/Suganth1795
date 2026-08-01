@@ -42,7 +42,6 @@ Full stack developer focused on practical web apps, AI-powered tools, and softwa
 
 <p align="center">
 <strong>SUGANTH</strong><br>
-CLS<br>
 Full Stack Developer<br>
 India
 </p>
