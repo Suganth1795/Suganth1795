@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm CLS
+# Hi, I'm Suganth CL
 
 Full stack developer focused on practical web apps, AI-powered tools, and software that feels polished, useful, and easy to maintain.
 
@@ -41,7 +41,7 @@ Full stack developer focused on practical web apps, AI-powered tools, and softwa
 </p>
 
 <p align="center">
-<strong>CLS</strong><br>
+<strong>SUGANTH</strong><br>
 CLS<br>
 Full Stack Developer<br>
 India
